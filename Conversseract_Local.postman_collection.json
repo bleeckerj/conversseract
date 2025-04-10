@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "cefd6dda-c917-4c85-b47c-30f3bb19f5e8",
+		"name": "Conversseract Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17761458"
+	},
+	"item": [
+		{
+			"name": "PHILOSOPHER AGENT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": \"philosopher\",\n        \"name\": \"Tony Rosenthal\",\n        \"personality\": \"thoughtful, urbane, analytical, concerned with nominalism and epistemology in a metamodern context\",\n        \"expertise\": [\"philosophy\", \"epistemology\", \"metamodernism\", \"nominalism\", \"social impact\"],\n        \"model\": \"llama3.2:latest\",\n        \"model_provider\": \"ollama\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/agents",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"agents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TECH GUY AGENT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": \"tech_enthusiast\",\n        \"name\": \"Chauncy\",\n        \"personality\": \"analytic computer hobbyist clear sense of purpose with some anxiety about the future and difficulty socializing\",\n        \"expertise\": [\"artificial intelligence\", \"programming\", \"tech trends\"],\n        \"model\": \"llama3.2:latest\",\n        \"model_provider\": \"ollama\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/agents",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"agents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FISHING GUY",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": \"fishing_guy\",\n        \"name\": \"David\",\n        \"personality\": \"musician sportsman and outdoor enthusiast\",\n        \"expertise\": [\"fly fishing\", \"music\", \"photography\"],\n        \"model\": \"phi3:mini\",\n        \"model_provider\": \"ollama\",\n        \"max_tokens\": \"40\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/agents",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"agents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOBBY PILSHAW",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": \"bobby_pilshaw\",\n        \"name\": \"Bobby\",\n        \"personality\": \"orthodox jewish man with a clear sense of purpose with some anxiety about the future and difficulty socializing\",\n        \"expertise\": [\"fly fishing\", \"programming\", \"tech trends\"],\n        \"model\": \"deepseek-r1:1.5b\",\n        \"model_provider\": \"ollama\",\n        \"enable_reflection\": \"True\",\n        \"reflection_depth\": 6,\n        \"max_tokens\": 100\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/agents",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"agents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEBATES",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"topic\": \"Creativity and imagination\",\n    \"agent_ids\": [\"fishing_guy\", \"bob_pilshaw\", \"tech_enthusiast\", \"philosopher\"],\n    \"rounds\": 4,\n    \"moderator_enabled\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/debates",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"debates"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	]
+}

@@ -57,7 +57,7 @@ debate_results = {}
 default_moderator_system_message = "You are moderating a debate. Summarize positions, highlight agreements and disagreements, and pose questions to deepen the discussion."
 
 # Load LLM configuration
-def load_llm_config(api_key=None, model_provider="openai", model_name="gpt-4", base_url=None):
+def load_llm_config(api_key=None, model_provider="openai", model_name="gpt-4o-mini", base_url=None):
     """
     Load LLM configuration based on selected provider and model.
     
