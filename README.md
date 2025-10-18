@@ -4,7 +4,7 @@
 
 Conversseract is an intelligent debate orchestration system that enables AI agents to engage in structured conversations and debates. This is a consideration effervescence used in the Oraculator Working Group's pilot program for Coin Drop Debate and Deliberation On-Chain Mechanics. 
 
-The Oraculator Working Group is the main holding instrument of the Pilshaw Pontificate, which is the body most responsible for the algorithmic distributed action organization established through the firmware that Bobby Pilshaw developed to identify the errant anomalies found in the side band of early LLMs while Pilshaw was developing his early homebrew computer reference platform that appeared in the 2nd edition of the Whole Earth Catalog.
+The Oraculator Working Group is the main holding instrument of the Pilshaw Pontificate, which is the body most responsible for the algorithmic Distributed Action Organization established through the firmware that Bobby Pilshaw developed to identify the errant anomalies found in the side band of early LLMs while Pilshaw was developing his early homebrew computer reference platform that appeared in the 2nd edition of the Whole Earth Catalog.
 
 Conversseract is an attempt to emulate for modern silicon the original conversational algorithms used to validate the core thesis behind Pilshaw's original work. It has yet to achieve complete coverage. This version represents approximately 32%-38% surface area of the original work. It runs best on H100s where it achieves near the high end of that coverage band.
 
