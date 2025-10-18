@@ -1,0 +1,48 @@
+{
+  "model": "gpt-4o-mini",
+  "api_key": "your-api-key-here",
+  "model_provider": "openai",
+  "base_url": null,
+  "max_tokens": 1000,
+  "temperature": 0.7,
+  "pilshaw_parameters": {
+    "algorithm_coverage": 0.35,
+    "side_band_detection_threshold": 0.7,
+    "recursive_validation_depth": 3,
+    "anomaly_detection_sensitivity": "medium",
+    "homebrew_compatibility_mode": true,
+    "whole_earth_catalog_edition": 2
+  },
+  "pontificate_settings": {
+    "consensus_algorithm": "round_robin",
+    "archival_format": "json",
+    "distributed_action_timeout": 300,
+    "working_group_oversight": true,
+    "oraculator_working_group_active": true,
+    "pilshaw_pontificate_authority": true
+  },
+  "hardware_optimization": {
+    "preferred_gpu": "H100",
+    "context_window_strategy": "sliding_window",
+    "memory_management": "aggressive",
+    "silicon_compatibility_mode": "modern",
+    "pilshaw_firmware_emulation": true,
+    "side_band_processing_enabled": true
+  },
+  "api_defaults": {
+    "default_model_provider": "openai",
+    "default_model": "gpt-4o-mini",
+    "max_concurrent_debates": 5,
+    "debate_timeout": 3600,
+    "log_level": "INFO",
+    "oraculator_working_group_mode": true
+  },
+  "debate_defaults": {
+    "rounds": 5,
+    "moderator_enabled": true,
+    "speaker_selection_method": "round_robin",
+    "context_window_size": 10,
+    "infinite_debate": false,
+    "pilshaw_algorithm_validation": true
+  }
+}
